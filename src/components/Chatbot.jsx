@@ -1,9 +1,16 @@
 import React from 'react'
+import ChatbotContainer from './ChatbotContainer'
 
 const ChatBot = () => {
   return (
-    <div className="bg-gray-100 h-screen flex flex-col justify-between">
-      <header className="bg-gray-800 text-white p-4">
+    <div >
+
+
+    <ChatbotContainer />
+
+
+
+      {/* <header className="bg-gray-800 text-white p-4">
         <h1 className="text-xl font-bold">ChatBot</h1>
       </header>
       <main className="flex-1 p-4">
@@ -29,7 +36,7 @@ const ChatBot = () => {
       <footer className="bg-white p-4 flex items-center">
         <input type="text" placeholder="Digite sua mensagem aqui" className="flex-1 bg-gray-200 rounded-lg py-2 px-3 outline-none" />
         <button className="bg-blue-500 text-white py-2 px-4 ml-2 rounded-lg">Enviar</button>
-      </footer>
+      </footer> */ }
     </div>
   )
 }
