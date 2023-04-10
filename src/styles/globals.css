@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gray-200 {
+  background-color: #E5E7EB; /* ou qualquer outra cor que você preferir */
+}
+
